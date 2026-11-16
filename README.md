@@ -22,6 +22,14 @@ Each pinned repository below pairs working automated suites with test strategy a
 
 ---
 
+## Full-Stack Engineering Background
+
+Alongside dedicated QA Automation suites, I build full-stack web applications that ground my test design in real backend contracts, relational modeling, and frontend state management:
+
+* [**`gaed-modern`**](https://github.com/lfernandobra/gaed-modern) — School management monorepo (**React 19**, **TypeScript**, **Vite**, **Tailwind CSS v4**, **Node.js/Express**, **Prisma ORM**, **PostgreSQL 16**, **JWT/RBAC** across 6 user roles, **OpenAPI**, and full-stack GitHub Actions CI with DB seeding & API smoke checks) [![CI](https://github.com/lfernandobra/gaed-modern/actions/workflows/ci.yml/badge.svg)](https://github.com/lfernandobra/gaed-modern/actions/workflows/ci.yml)
+
+---
+
 ## Core Engineering Practices
 
 * **Clean Architecture in Test Suites:** Page Object Model (POM), Screen Object Model, custom Cypress commands (`cy.session`, `cy.selectFile`, `cy.env`), Playwright fixtures/service objects, and keyword libraries with strict static linting (`ESLint`, `Robocop`).
